@@ -1,5 +1,5 @@
 Summary:	GNUstep Database Library 2
-Summary(pl):	Druga wersja bibliotek baz danych GNUstepa
+Summary(pl.UTF-8):   Druga wersja bibliotek baz danych GNUstepa
 Name:		gnustep-dl2
 Version:	0.10.1
 Release:	1
@@ -25,16 +25,16 @@ Objective-C objects to rows of relational database management systems
 (RDBMS). It aims to be compatible with Enterprise Objects Framework
 (EOF) as released with WebObjects 4.5 from Apple Inc.
 
-%description -l pl
+%description -l pl.UTF-8
 GNUstep Database Library 2 (GDL2), czyli druga wersja biblioteki baz
-danych GNUstepa, to zbi髍 bibliotek odwzorowuj眂ych obiekty
-Objective-C na wiersze relacyjnych baz danych. Celem jest osi眊ni阠ie
-zgodno禼i z Enterprise Object Framework (EOF) wydanym wraz z
+danych GNUstepa, to zbi贸r bibliotek odwzorowuj膮cych obiekty
+Objective-C na wiersze relacyjnych baz danych. Celem jest osi膮gni臋cie
+zgodno艣ci z Enterprise Object Framework (EOF) wydanym wraz z
 WebObjects 4.5 przez Apple Inc.
 
 %package devel
 Summary:	Header files for GNUstep Database Library
-Summary(pl):	Pliki nag丑wkowe biblioteki baz danych GNUstepa
+Summary(pl.UTF-8):   Pliki nag艂贸wkowe biblioteki baz danych GNUstepa
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	gnustep-base-devel >= 1.9.1
@@ -43,12 +43,12 @@ Obsoletes:	gnustep-db2-devel
 %description devel
 Header files for GNUstep Database Library.
 
-%description devel -l pl
-Pliki nag丑wkowe biblioteki baz danych GNUstepa.
+%description devel -l pl.UTF-8
+Pliki nag艂贸wkowe biblioteki baz danych GNUstepa.
 
 %package postgresql
 Summary:	PostgreSQL adaptor for GNUstep Database Library
-Summary(pl):	Interfejs PostgreSQL dla biblioteki baz danych GNUstepa
+Summary(pl.UTF-8):   Interfejs PostgreSQL dla biblioteki baz danych GNUstepa
 Group:		Libraries
 Requires:	%{name} = %{version}-%{release}
 Obsoletes:	gnustep-db2-postgresql
@@ -56,12 +56,12 @@ Obsoletes:	gnustep-db2-postgresql
 %description postgresql
 PostgreSQL adaptor for GNUstep Database Library.
 
-%description postgresql -l pl
+%description postgresql -l pl.UTF-8
 Interfejs PostgreSQL dla biblioteki baz danych GNUstepa.
 
 %package postgresql-devel
 Summary:	Header files for GNUstep PostgreSQL adaptor
-Summary(pl):	Pliki nag丑wkowe interfejsu PostgreSQL do GNUstepa
+Summary(pl.UTF-8):   Pliki nag艂贸wkowe interfejsu PostgreSQL do GNUstepa
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 Requires:	%{name}-postgresql = %{version}-%{release}
@@ -71,8 +71,8 @@ Obsoletes:	gnustep-db2-postgresql-devel
 %description postgresql-devel
 Header files for GNUstep PostgreSQL adaptor.
 
-%description postgresql-devel -l pl
-Pliki nag丑wkowe interfejsu PostgreSQL do GNUstepa.
+%description postgresql-devel -l pl.UTF-8
+Pliki nag艂贸wkowe interfejsu PostgreSQL do GNUstepa.
 
 %prep
 %setup -q
